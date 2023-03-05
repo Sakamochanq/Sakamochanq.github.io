@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    user-select: none;
+    color: rgb(59, 59, 59);
+    background-color: rgb(245, 245, 245);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*------------------------------*/
+
+/*Header*/
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 7%;
+    background-color: rgb(59, 59, 59);
+}
+
+h2 {
+    font-size: 35px;
+    margin-right: auto;
+    color: rgb(255, 255, 255);
+}
+span {
+    color:rgb(255, 255, 255)
+}
+
+.nav_links {
+    list-style: none;
+}
+.nav_links li {
+    display: inline-block;
+}
+.nav_links a {
+    text-decoration: none;
+    margin: 8px;
+    color: rgb(160, 160, 160);
+}
+
+.nav_links a:hover {
+    color: rgb(100, 100, 100);
+}
+.nav_links a:active {
+    color: rgb(80, 80, 80);
+}
+
+/*------------------------------*/
+
+/*Div Profile*/
+
+.Profile {
+    background-color: rgb(200, 200, 200);
+    height: 610px;
+}
+.Logo {
+    border-radius: 50%;
+    pointer-events: none;
+}
+.Introduction {
+  border: 1px solid;
+  margin-left: auto;
+  margin-right: auto;
+  width: 370;
+  height: 250;
+  text-align: center;
+  background-color: rgb(240, 240, 240);
+}
+.Name {
+    font-size: 23px;
+    font-family: inherit;
+    color: rgb(59, 59, 59);
+  }
+.as {
+    margin-top: 20px;
+    margin-right: 80px;
+    margin-left: 80px;
+  }
+.Introduction p {
+  margin: 0;
+  padding: 0;
+}
+img:hover {
+    background-color: rgb(230, 230, 230);
+    border-radius: 10px;
+  
+    -webkit-touch-callout:none;
+      -webkit-user-select:none;
+      -moz-touch-callout:none;
+      -moz-user-select:none;
+      user-select:none;
+  }
+  img:active {
+    background-color: rgb(204, 203, 203);
+  }
