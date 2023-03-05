@@ -24,5 +24,5 @@ git clone https://github.com/Sakamochanq/Sakamochanq.github.io.git
 
 ## License
 
-Original release under ]Apache-2.0 license](https://github.com/Sakamochanq/Sakamochanq.github.io/blob/master/LICENSE)  
+Original release under [Apache-2.0 license](https://github.com/Sakamochanq/Sakamochanq.github.io/blob/master/LICENSE)  
 Please check the license
