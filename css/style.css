@@ -27,6 +27,9 @@ h2 {
     margin-right: auto;
     color: rgb(255, 255, 255);
 }
+h3 {
+    font-size: 25px;
+}
 span {
     color:rgb(255, 255, 255)
 }
@@ -99,3 +102,22 @@ img:hover {
   img:active {
     background-color: rgb(204, 203, 203);
   }
+
+/*------------------------------*/
+
+/*Project*/
+
+.project {
+    background-color: rgb(180, 180, 180);
+}
+.Project-Title {
+    text-align: center;
+
+}
+.Project-about {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid;
+    width: 500px;
+}
+
+/*Project1*/
