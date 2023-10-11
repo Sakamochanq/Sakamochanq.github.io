@@ -195,7 +195,7 @@ p {
 
 /*---------------------------------------------*/
 
-.HelloWorld {
+.Content-String {
     margin-top: 80px;
 }
 
@@ -220,7 +220,7 @@ p {
 
     /*---------------------------------------------*/
 
-    .HelloWorld {
+    .Content-String {
         width: 360px;
         margin-left: -20px;
     }
