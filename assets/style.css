@@ -235,15 +235,15 @@ p {
     .ChartWrapper {
         margin-left: -50px;
     }
-
-　　/*---------------------------------------------*/
-
-　　.user_icon_smartphone {
-　　　　display: block;
-　　}
-
+	
     /*---------------------------------------------*/
 
+    .user_icon_smartphone {
+        display: block;
+    }
+
+    /*---------------------------------------------*/
+	
     .Content-String {
         width: 360px;
         margin-left: -20px;
