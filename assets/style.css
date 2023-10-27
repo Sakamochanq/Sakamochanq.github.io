@@ -220,6 +220,21 @@ p {
 
 /*---------------------------------------------*/
 
+.Profile-Cards {
+    pointer-events: none;
+    -webkit-touch-callout:none;
+    -webkit-user-select:none;
+    -moz-touch-callout:none;
+    -moz-user-select:none;
+    user-select:none;
+}
+.Card-Wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*---------------------------------------------*/
+
 @media screen and (max-width: 600px){
     .introduction {
         width: 320px;
@@ -256,5 +271,14 @@ p {
     }
     .trackLine {
         width: 326px;
+    }
+    
+    /*---------------------------------------------*/
+	
+    .Card-Wrapper {
+        display: block;
+    }
+    .tags {
+        text-align: center;
     }
   }
