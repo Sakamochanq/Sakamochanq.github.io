@@ -43,7 +43,7 @@ window.addEventListener("focus", () =>{
 });
 
 const Local = () => {
-    document.getElementById('ip_v4').innerHTML = "IPv4 : " + location.hostname;  
+    document.getElementById('ip_v4').innerHTML = "Host : " + location.hostname;  
     document.getElementById('port').innerHTML = "Port : " + location.port;
 }
 Local();
