@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    user-select: none;
+    color: rgb(90, 90, 90);
+    background-color: rgb(255, 255, 255);
+    font-family: sans-serif;
+}
+
+.Title-Logo {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.Main-Container {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  .Contents-Wrapper {
+    /* Main */
+    width: 450px;
+    height: 650px;
+
+    background-color: white;
+    border: solid 2px rgba(192, 192, 192, 0.14);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(76, 82, 96, 0.238);
+  
+    .Contents {
+      width: 350px;
+      position: absolute;
+      transform: translate(-50%, -50%);
+      top: 50%;
+      left: 50%;
+      .Title-Logo {
+        align-items: center;
+        .logo {
+          align-items: center;
+          pointer-events: none;
+        }
+      }
+      .ipinfo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .helpbutton {
+          margin-left: 20px;
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+          color: rgb(90, 90, 90);
+          border: 1px solid rgb(90, 90, 90);
+          background-color: rgb(255, 255, 255);
+        }
+        .helpbutton:hover {
+          background-color: rgb(231, 231, 231);
+        }
+        .helpbutton:active {
+          background-color: rgb(255, 255, 255);
+        }
+      }
+      #ip_global {
+        color: rgb(71, 124, 208);
+        text-align: center;
+      }
+      .copyright {
+        color: rgba(156, 156, 156, 0.405);
+        text-align: center;
+      }
+      .data {
+        margin-top: 15px;
+      }
+    }
+  }
+}
+
+.Title-Contents {
+  text-align: center;
+  .logo {
+    margin-top: 110px;
+  }
+}
+
+/* Windows */
+@media screen and (min-width: 768px) {
+
+}
+  
+/* iPhone */
+@media screen and (max-width: 767px) {
+  .Main-Container {
+    .Contents-Wrapper {
+      width: 350px;
+      height: 600px;
+      .Contents {
+        width: 300px;
+        .ipinfo {
+          #ip_global {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+  .Title-Contents {
+    text-align: center;
+    .logo {
+      margin-top: 50px;
+    }
+  }
+}
+  

@@ -1,0 +1,45 @@
+<html>
+
+    <head>
+        <title>PinPoints</title>
+
+        <link rel="stylesheet" href="./assets/style.css">
+        <link rel="icon" href="./assets/images/favicon.ico" />
+        <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width">
+    </head>
+
+    <body>
+        <div class="Main-Container">
+            <div class="Contents-Wrapper">
+                <div class="Contents">
+                    <div class="Title-Logo">
+                        <img class="logo" src="./assets/image/Logo.png" width="250px">
+                    </div>
+                    <br>
+                    <hr>
+                    <br>
+                    <br>
+                    <div align="center" class="ipinfo">
+                        <h3 id="ip_global"></h3>
+                        <button onclick="Alert()" class="helpbutton"><b>?</b></button>
+                    </div>
+                    <br>
+                    <!-- Document -->
+                    <p class="data" id="ip_v4"></p>
+                    <!-- API -->
+                    <p class="data" id="Country"></p>
+                    <p class="data" id="City"></p>
+                    <p class="data" id="Region"></p>
+                    <p class="data" id="Location"></p>
+                    <p class="data" id="Organization"></p>
+                    <p class="data" id="Postal"></p>
+                    <p class="data" id="Timezone"></p>
+                </div>
+            </div>
+        </div>
+    </body>
+
+    <script src="./assets/socket.js"></script>
+
+</html>
