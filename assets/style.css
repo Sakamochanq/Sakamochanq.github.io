@@ -151,7 +151,7 @@ a:active {
     animation: anima-bar-chart-001 1.2s ease;
     height: 5px;
 }
-.chartname {
+.chartValue {
     margin-left: 30px;
     margin-bottom: 10px;
 }
