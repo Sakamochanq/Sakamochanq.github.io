@@ -4,12 +4,6 @@ menuButton.addEventListener('click', () => {
     //None
 });
 
-const DeployButton = document.querySelector('.Deploy');
-
-DeployButton.addEventListener('click', () => {
-    window.open('https://github.com/Sakamochanq');
-});
-
 const $ChartValue = document.getElementById('chartValue'); 
 const $ChartDraw = document.getElementById('chartDraw');
 
