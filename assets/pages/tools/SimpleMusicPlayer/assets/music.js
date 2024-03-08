@@ -41,7 +41,7 @@ const songsInfo = [
     },
     {
         src: './assets/pop/songs/Kyu_Kurarin.mp3',
-        albumImage: 'assets/pop/albums/Kyu_kurarin.png',
+        albumImage: 'assets/pop/albums/Kyu_Kurarin.png',
         musicName: '- きゅうくらりん -',
         artistName: 'いよわ'
     },
