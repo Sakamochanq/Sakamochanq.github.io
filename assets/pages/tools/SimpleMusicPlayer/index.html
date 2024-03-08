@@ -1,0 +1,39 @@
+<html>
+
+    <head>
+        <title>Simple MusicPlayer</title>
+        <link rel="stylesheet" href="./assets/style.css">
+        <link rel="icon" href="./assets/images/favicon.ico" />
+        <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width">
+    </head>
+
+    <body>
+
+        <div align="center" class="main-container">
+            <div class="music-player">
+                <img class="album-icon">
+                <h4 id="music-name">Unknown</h4>
+                <h5 id="artist-name">...</h5>
+                <br>
+                <div class="range-container">
+                    <p id="currentTime">0:00</p>
+                    <p id="totalTime">0:00</p>
+                </div>
+                <audio id="audioPlayer"></audio>
+                <input type="range" id="music-range" min="0" value="0" step="1">
+
+                <div class="control-button">
+                    <button class="ctrl-btn-3rd" id="randButton"><img id="random" class="ctrl-icon" src="./assets/images/random.png"></button>
+                    <button class="ctrl-btn-2nd" id="prevButton"><img id="prev" class="ctrl-icon" src="./assets/images/prev.png"></button>
+                    <button class="ctrl-btn-1st" id="playButton"><img id="pause" class="ctrl-icon" src="./assets/images/pause.png"></button>
+                    <button class="ctrl-btn-2nd" id="nextButton"><img id="next" class="ctrl-icon" src="./assets/images/next.png"></button>
+                    <button class="ctrl-btn-3rd" id="loopButton"><img id="loop" class="ctrl-icon" src="./assets/images/loop.png"></button>
+                </div>
+            </div>
+        </div>
+    </body>
+
+    <script src="./assets/music.js"></script>
+
+</html>
