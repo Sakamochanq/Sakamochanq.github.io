@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    user-select: none;
+    color: rgb(130, 130, 130);
+    background-color: rgb(251, 253, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-container {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    .music-player {
+        border-radius: 50px;
+        background: #f9f9f9;
+        box-shadow:  5px 5px 10px #dfdfdf, -5px -5px 10px #ffffff;
+        width: 400px;
+        height: 510px;
+
+        .range-container {
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        #music-name {
+            margin-top: 30px;
+        }
+        #artist-name {
+            margin-top: 10px;
+        }
+        #music-range {
+            margin-top: 20px;
+        }
+        .album-icon {
+            margin-top: 35px;
+            width: 180px;
+            height: 180px;
+            border: 1px solid rgb(222, 222, 222);
+            box-shadow:  5px 5px 10px #dfdfdf, -5px -5px 10px #ffffff;
+            border-radius: 50%;
+            pointer-events: none;
+            user-select: none;
+        }
+
+        .control-button{
+            margin-top: 50px;
+            width: 300px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            /* 1st */
+            .ctrl-btn-1st {
+                background-color: #f0f0f0;
+                border: 1px solid #e2e2e2;
+                border-radius: 50%;
+                width: 50px;
+                height: 50px;
+                box-shadow: 5px 5px 15px #bcbcbc, -5px -5px 15px #ffffff;
+                transition: all 0.3s ease;
+                font-size: 16px;
+                color: #555;
+                cursor: pointer;
+                outline: none;
+            }
+            /* 2nd */
+            .ctrl-btn-2nd {
+                background-color: #f0f0f0;
+                border: 1px solid #e2e2e2;
+                border-radius: 50%;
+                width: 45px;
+                height: 45px;
+                box-shadow: 5px 5px 15px #bcbcbc, -5px -5px 15px #ffffff;
+                transition: all 0.3s ease;
+                font-size: 16px;
+                color: #555;
+                cursor: pointer;
+                outline: none;
+            }
+            /* 3rd */
+            .ctrl-btn-3rd {
+                background-color: #f0f0f0;
+                border: 1px solid #e2e2e2;
+                border-radius: 50%;
+                width: 40px;
+                height: 40px;
+                box-shadow: 5px 5px 15px #bcbcbc, -5px -5px 15px #ffffff;
+                transition: all 0.3s ease;
+                font-size: 16px;
+                color: #555;
+                cursor: pointer;
+                outline: none;
+            }
+            .ctrl-btn-1st:active {
+                box-shadow: inset 5px 5px 15px #bcbcbc, inset -5px -5px 15px #ffffff;
+            }
+            .ctrl-btn-2nd:active {
+                box-shadow: inset 5px 5px 15px #bcbcbc, inset -5px -5px 15px #ffffff;
+            }
+            .ctrl-btn-3rd:active {
+                box-shadow: inset 5px 5px 15px #bcbcbc, inset -5px -5px 15px #ffffff;
+            }
+            .ctrl-icon {
+                pointer-events: none;
+                user-select: none;
+                width: 20px;
+                height: 20px;
+            }
+        }
+    }
+}
+
+/* Range Style */
+
+/* background */
+#music-range {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 250px;
+    height: 10px;
+    background-color: #eaeaea;
+    border: 1px solid #e2e2e2;
+    border-radius: 5px;
+  }
+  
+  /* circle */
+  #music-range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(200, 200, 200);
+    border-radius: 50%;
+    box-shadow: none;
+    cursor: pointer; 
+  }
+
+/* Range Style End */
+
+@media screen and (max-width: 767px) {
+    .main-container {
+        .music-player {
+            width: 320px;
+            height: 520px;
+            .control-button{
+                margin-top: 50px;
+                width: 270px;
+            }
+        }
+        #music-range {
+            width: 220px;
+        }
+    }
+}
