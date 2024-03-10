@@ -57,6 +57,30 @@ const songsInfo = [
         musicName: '- Goodbye Sweet Heart -',
         artistName: 'Sherlock Hound'
     },
+    {
+        src: './assets/pop/songs/Sakayume.mp3',
+        albumImage: 'assets/pop/albums/Sakayume.png',
+        musicName: '- 逆夢 -',
+        artistName: 'King Gnu'
+    },
+    {
+        src: './assets/pop/songs/WORK.mp3',
+        albumImage: 'assets/pop/albums/WORK.png',
+        musicName: '- WORK -',
+        artistName: 'millennium parade'
+    },
+    {
+        src: './assets/pop/songs/Tsumugu.mp3',
+        albumImage: 'assets/pop/albums/Tsumugu.png',
+        musicName: '- 紡ぐ -',
+        artistName: 'とた'
+    },
+    {
+        src: './assets/pop/songs/Finale.mp3',
+        albumImage: 'assets/pop/albums/Finale.png',
+        musicName: '- フィナーレ -',
+        artistName: 'eill'
+    },
 ];
 
 //load song info
