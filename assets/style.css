@@ -189,7 +189,7 @@ footer {
 }
 /* footer end */
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 950px){
     table {
         width: 100%;
         th {
