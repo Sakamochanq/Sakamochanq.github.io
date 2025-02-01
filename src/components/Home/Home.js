@@ -8,7 +8,7 @@ export const Home = () => {
         <br /><br />
         <h2>Hello World.</h2>
         <br /><br />
-        <hr style={{width: "65%"}}/>
+        <hr className='hr'/>
     </div>
   )
 }

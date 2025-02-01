@@ -9,3 +9,13 @@
     user-select: none;
     width: 150px;
 }
+
+.hr {
+    width: 65%;
+}
+
+@media (max-width: 950px) {
+    .hr {
+        width: 75%
+    }
+}

@@ -32,6 +32,9 @@ td {
 }
 
 @media (max-width: 950px) {
+    .profile-container {
+        margin: 80px 12.5% 0px 12.5%;
+    }
     table {
         width: 100%;
     }
