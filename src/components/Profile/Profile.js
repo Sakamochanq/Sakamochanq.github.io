@@ -9,7 +9,7 @@ export const Profile = () => {
         <table border={1}>
             <tr>
                 <th>名前</th>
-                <td>Sakamochanq</td>
+                <td>Sakamochan</td>
             </tr>
             <tr>
                 <th>生年月日</th>
@@ -24,6 +24,20 @@ export const Profile = () => {
                 <td>寿司</td>
             </tr>
         </table>
+        <br /><br /><br />
+        <div className="Iam">
+            <img src="https://avatars.githubusercontent.com/u/126952815?v=4" className="user-image" />
+            <div className="name">
+                <h3>Sakamochan</h3>
+                <p>KIT EV3</p>
+            </div>
+            <br />
+            <hr className="dot" />
+            <br />
+            <div className="box">
+                
+            </div>
+        </div>
     </div>
   )
 }
