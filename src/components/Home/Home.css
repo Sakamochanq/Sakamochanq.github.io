@@ -6,6 +6,7 @@
 }
 
 .logo {
+    pointer-events: none;
     user-select: none;
     width: 150px;
 }
