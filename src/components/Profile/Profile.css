@@ -1,0 +1,41 @@
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin: 80px 17.5% 0px 17.5%;
+}
+
+.title {
+    padding: .5em .7em;
+    border-left: #474747 solid 5px;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    width: 65%;
+}
+
+th {
+    background-color: #474747;
+    color: #FFFFFF;
+    width: 40%;
+    height: 40px;
+    font-size: 15px;
+}
+td {
+    text-align: left;
+    padding: 0 0 0 20px;
+    background-color: #fafafa;
+    width: 60%;
+    height: 40px;
+}
+
+@media (max-width: 950px) {
+    table {
+        width: 100%;
+    }
+    th {
+        font-size: 14px;
+    }
+}
