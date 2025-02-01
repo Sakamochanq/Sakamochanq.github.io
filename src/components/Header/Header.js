@@ -20,7 +20,7 @@ export const Header = () => {
 
   return (
     <header>
-        <h1 className='nav-logo'>Logo</h1>
+        <h1 className='nav-logo'>Note.</h1>
         <button onClick={toggleMenu} className="menu-button">
           <span></span><span></span><span></span>
         </button>
