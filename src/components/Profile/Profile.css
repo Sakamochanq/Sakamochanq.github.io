@@ -42,3 +42,55 @@ td {
         font-size: 14px;
     }
 }
+
+/* Iam */
+.dot {
+    border-top: 2px dotted #474747;
+    display: none;
+}
+.Iam {
+    background-color: #f5f5f5;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 120px;
+    width: 100%;
+}
+.name {
+    text-align: left;
+    display: flex;
+    margin-right: 30px;
+}
+.box-1 {
+    text-align: left;
+    display: flex;
+    margin-right: 30px;
+}
+.box-1 :where(.name){
+    margin: 0 0 0 20px;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    padding: 10px 0 10px 0;
+}
+.box-2 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 30px;
+}
+.box-2 :where(.icon){
+    color: #474747;
+    opacity: 0.7;
+}
+.box-2 :where(.icon) :hover{
+    background-color: #ff0000;
+}
+.user-image {
+    pointer-events: none;
+    border-radius: 50%;
+    opacity: 0.7;
+    width: 70px;
+}
+/* Iam end */

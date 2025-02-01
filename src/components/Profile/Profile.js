@@ -1,4 +1,5 @@
 import React from 'react'
+import GitHubIcon from '@mui/icons-material/GitHub';
 import './Profile.css'
 
 export const Profile = () => {
@@ -26,18 +27,27 @@ export const Profile = () => {
         </table>
         <br /><br /><br />
         <div className="Iam">
-            <img src="https://avatars.githubusercontent.com/u/126952815?v=4" className="user-image" />
-            <div className="name">
-                <h3>Sakamochan</h3>
-                <p>KIT EV3</p>
+            <br />
+            <div className="box-1">
+                <img src="https://avatars.githubusercontent.com/u/126952815?v=4" className="user-image" />
+                <div className="name">
+                    <h3>Sakamochan</h3>
+                    <p>KIT EV3</p>
+                </div>
             </div>
             <br />
             <hr className="dot" />
             <br />
-            <div className="box">
-                
+            <div className="box-2">
+                <a className='icon' href="#"><GitHubIcon /></a>
+                <a className='icon' href="#"></a>
+                <a className='icon' href="#"></a>
             </div>
         </div>
+
+
+        <br /><br /><br /><br /><br />
+
     </div>
   )
 }
