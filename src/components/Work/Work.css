@@ -1,0 +1,74 @@
+.work-container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin: 0px 17.5% 0px 17.5%;
+}
+
+.title {
+    padding: .5em .7em;
+    border-left: #474747 solid 5px;
+}
+
+/* Project Card */
+.project-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+
+.project-card {
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    margin: 20px 0px 20px 0px;
+    padding: 30px 35px 30px 35px;
+    width: calc(50% - 40px);
+    box-sizing: border-box;
+    text-align: center;
+
+    text-decoration: none;
+    list-style: none;
+    color: #474747;
+}
+.project-card:hover {
+    transform: translateY(-10px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-image {
+    user-select: none;
+    pointer-events: none;
+    width: 200px;
+    border-radius: 8px;
+    border: #dddddd solid 1px;
+    margin: 0 auto 20px auto;
+}
+
+.project-name {
+    font-size: 1.2em;
+}
+
+.project-desc {
+    font-size: 1em;
+    margin-top: 20px;
+}
+
+@media (max-width: 950px) {
+    .work-container {
+        margin: 0px 12.5% 0px 12.5%;
+    }
+    .project-wrapper {
+        width: 100%;
+    }
+    .project-card {
+        margin: 0px 0px 20px 0px;
+        width: 100%;
+    }
+    .project-name {
+        font-size: 1.0em;
+    }
+    .project-card:hover {
+        transform: translateY(0px);
+    }
+}
+/* Project Card end */
