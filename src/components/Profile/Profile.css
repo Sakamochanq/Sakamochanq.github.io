@@ -80,21 +80,25 @@ td {
     display: flex;
     padding: 0px 30px 0px 30px;
 }
-.box-2 :where(.icon){
+.box-2 :where(.icon-1, .icon-2, .icon-3){
     display: flex;
     align-items: center;
     color: #474747;
     padding: 0px 15px 0px 15px;
     font-size: 40px;
     opacity: 0.7;
+    transition: color 0.3s;
 }
-.box-2 :where(.icon) :hover{
-    border-radius: 10px;
-    color: #252525;
+.box-2 :where(.icon-1):hover {
+    color: #df5adf;
 }
-.box-2 :where(.icon) :active{
-    color: #474747;
+.box-2 :where(.icon-2):hover {
+    color: #000000;
 }
+.box-2 :where(.icon-3):hover {
+    color: #43b943;
+}
+
 .user-image {
     pointer-events: none;
     border-radius: 50%;

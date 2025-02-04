@@ -40,13 +40,13 @@ export const Profile = () => {
             <hr className="dot" />
             <br />
             <div className="box-2">
-                <a className='icon' href="https://www.instagram.com/sakamochan123/" target='_blank'>
+                <a className='icon-1' href="https://www.instagram.com/sakamochan123/" target='_blank'>
                     <FontAwesomeIcon icon={faInstagram}/>
                 </a>
-                <a className='icon' href="https://github.com/Sakamochanq" target='_blank'>
+                <a className='icon-2' href="https://github.com/Sakamochanq" target='_blank'>
                     <FontAwesomeIcon icon={faGithub}/>
                 </a>
-                <a className='icon' href="https://open.spotify.com/user/31bgdpxvzykx2anutyeiscxjcque" target='_blank'>
+                <a className='icon-3' href="https://open.spotify.com/user/31bgdpxvzykx2anutyeiscxjcque" target='_blank'>
                     <FontAwesomeIcon icon={faSpotify}/>
                 </a>
             </div>
