@@ -1,4 +1,6 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faInstagram, faGithub, faSpotify } from '@fortawesome/free-brands-svg-icons';
 import './Profile.css'
 
 export const Profile = () => {
@@ -38,9 +40,15 @@ export const Profile = () => {
             <hr className="dot" />
             <br />
             <div className="box-2">
-                <a className='icon' href="#"></a>
-                <a className='icon' href="#"></a>
-                <a className='icon' href="#"></a>
+                <a className='icon' href="https://www.instagram.com/sakamochan123/" target='_blank'>
+                    <FontAwesomeIcon icon={faInstagram}/>
+                </a>
+                <a className='icon' href="https://github.com/Sakamochanq" target='_blank'>
+                    <FontAwesomeIcon icon={faGithub}/>
+                </a>
+                <a className='icon' href="https://open.spotify.com/user/31bgdpxvzykx2anutyeiscxjcque" target='_blank'>
+                    <FontAwesomeIcon icon={faSpotify}/>
+                </a>
             </div>
         </div>
 

@@ -65,7 +65,7 @@ td {
 .box-1 {
     text-align: left;
     display: flex;
-    margin-right: 30px;
+    padding: 0px 30px 0px 30px;
 }
 .box-1 :where(.name){
     margin: 0 0 0 20px;
@@ -78,19 +78,49 @@ td {
     justify-content: center;
     align-items: center;
     display: flex;
-    margin-left: 30px;
+    padding: 0px 30px 0px 30px;
 }
 .box-2 :where(.icon){
+    display: flex;
+    align-items: center;
     color: #474747;
+    padding: 0px 15px 0px 15px;
+    font-size: 40px;
     opacity: 0.7;
 }
 .box-2 :where(.icon) :hover{
-    background-color: #ff0000;
+    border-radius: 10px;
+    color: #252525;
+}
+.box-2 :where(.icon) :active{
+    color: #474747;
 }
 .user-image {
     pointer-events: none;
     border-radius: 50%;
     opacity: 0.7;
     width: 70px;
+}
+
+@media (max-width: 950px) {
+    .Iam {
+        display: block;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+    }
+    .box-1 {
+        display: flex;
+        justify-content: center;
+    }
+    .dot {
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        margin: 0px auto 0px auto;
+    }
+    .box-2 {
+        padding: 0px 0px 25px 0px;
+    }
 }
 /* Iam end */
