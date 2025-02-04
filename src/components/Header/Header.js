@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import './Header.css'
 
 export const Header = () => {
@@ -11,7 +11,7 @@ export const Header = () => {
       setMenuOpen(false)
     }
   }
-  React.useEffect(() => {
+  useEffect(() => {
     document.addEventListener('click', closeMenu)
     return () => {
       document.removeEventListener('click', closeMenu)
