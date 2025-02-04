@@ -126,5 +126,8 @@ td {
     .box-2 {
         padding: 0px 0px 25px 0px;
     }
+    .box-2 :where(.icon-1, .icon-2, .icon-3) {
+        font-size: 35px;
+    }
 }
 /* Iam end */
