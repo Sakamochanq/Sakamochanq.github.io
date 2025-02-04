@@ -1,5 +1,4 @@
 import React from 'react'
-import GitHubIcon from '@mui/icons-material/GitHub';
 import './Profile.css'
 
 export const Profile = () => {
@@ -39,7 +38,7 @@ export const Profile = () => {
             <hr className="dot" />
             <br />
             <div className="box-2">
-                <a className='icon' href="#"><GitHubIcon /></a>
+                <a className='icon' href="#"></a>
                 <a className='icon' href="#"></a>
                 <a className='icon' href="#"></a>
             </div>
