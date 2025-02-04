@@ -55,6 +55,14 @@
     margin-top: 20px;
 }
 
+.project-tags {
+    margin-top: 15px;
+    width: 100px;
+    padding: 3px;
+    border-radius: 10px;
+    background-color: #ebebeb;
+}
+
 @media (max-width: 950px) {
     .work-container {
         margin: 0px 12.5% 0px 12.5%;

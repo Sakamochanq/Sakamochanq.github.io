@@ -7,24 +7,28 @@ const projects = [
         image: "./assets/images/project/Image-Coupling.png",
         name: "Image-Coupling",
         description: "複数枚の画像を１つのPDFに結合するアプリ。画像枚数が多くてもPDFにできるよ。",
+        language: ["C#"],
         link: "https://github.com/Sakamochanq/Image-Coupling"
     },
     {
         image: "./assets/images/project/LaTex-Formula-Generator.png",
         name: "LaTex-Formula-Generator",
         description: "LaTexの数式を生成するWebアプリ。ついでにプレビューされるから、コードを書くこともできるよ。",
+        language: ["React", "Node.js", "javaScript"],
         link: "https://latex-formula-generator.vercel.app/"
     },
     {
         image: "./assets/images/project/Liberal-Chart.png",
         name: "Liberal-Chart",
         description: "金沢工業大学リベラルアーツ系科目の早見表。授業概要とか難易度とかまとめてるよ。",
+        language: ["React", "Node.js", "javaScript"],
         link: "https://liberal-chart.vercel.app/"
     },
     {
         image: "./assets/images/project/atcoder-archive.png",
         name: "atcoder-archive",
         description: "atcoderで提出したACとWAのコードを保管してるよ。ほとんどがABC。",
+        language: ["C++"],
         link: "https://github.com/Sakamochanq/atcoder-archive"
     }
 ];
@@ -39,6 +43,11 @@ return (
                     <img className='project-image' src={process.env.PUBLIC_URL + project.image} alt={project.name} />
                     <h2 className='project-name'>{project.name}</h2>
                     <p className='project-desc'>{project.description}</p>
+                    {project.language.map((lang, langIndex) => (
+                        <div style={{ display: "inline-block", justifyItems: "left", textAlign: "center", padding: "3px" }}>
+                            <p className="project-tags" key={langIndex}>{lang}</p>
+                        </div>
+                    ))}
                 </a>
             ))}
         </div>
