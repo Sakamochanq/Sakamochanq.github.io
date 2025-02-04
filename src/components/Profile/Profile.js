@@ -25,6 +25,12 @@ export const Profile = () => {
                 <th>好きな食べ物</th>
                 <td>寿司</td>
             </tr>
+            {/*
+            <tr>
+                <th>嫌いな食べ物</th>
+                <td>タピオカ</td>
+            </tr>
+            */}
         </table>
         <br /><br /><br />
         <div className="Iam">
