@@ -1,0 +1,6 @@
+.skill-container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin: 0px 17.5% 0px 17.5%;
+}
