@@ -11,6 +11,13 @@ const projects = [
         link: "https://github.com/Sakamochanq/Image-Coupling"
     },
     {
+        image: "./assets/images/project/Censor-Me.png",
+        name: "Censor-Me",
+        description: "OpenCVを使用し、画像から顔を検出し自動モザイク処理をしてくれるよ。",
+        language: ["C#"],
+        link: "https://github.com/Sakamochanq/Censor-Me"
+    },
+    {
         image: "./assets/images/project/LaTex-Formula-Generator.png",
         name: "LaTex-Formula-Generator",
         description: "LaTexの数式を生成するWebアプリ。ついでにプレビューされるから、コードを書くこともできるよ。",
@@ -23,13 +30,6 @@ const projects = [
         description: "金沢工業大学リベラルアーツ系科目の早見表。授業概要とか難易度とかまとめてるよ。",
         language: ["React", "Node.js", "javaScript"],
         link: "https://liberal-chart.vercel.app/"
-    },
-    {
-        image: "./assets/images/project/atcoder-archive.png",
-        name: "atcoder-archive",
-        description: "atcoderで提出したACとWAのコードを保管してるよ。ほとんどがABC。",
-        language: ["C++"],
-        link: "https://github.com/Sakamochanq/atcoder-archive"
     }
 ];
 
