@@ -21,14 +21,14 @@ const projects = [
         image: "./assets/images/project/LaTex-Formula-Generator.png",
         name: "LaTex-Formula-Generator",
         description: "LaTexの数式を生成するWebアプリ。ついでにプレビューされるから、コードを書くこともできるよ。",
-        language: ["React", "Node.js", "javaScript"],
+        language: ["React", "Node"],
         link: "https://latex-formula-generator.vercel.app/"
     },
     {
         image: "./assets/images/project/Liberal-Chart.png",
         name: "Liberal-Chart",
         description: "金沢工業大学リベラルアーツ系科目の早見表。授業概要とか難易度とかまとめてるよ。",
-        language: ["React", "Node.js", "javaScript"],
+        language: ["React", "Node"],
         link: "https://liberal-chart.vercel.app/"
     }
 ];
