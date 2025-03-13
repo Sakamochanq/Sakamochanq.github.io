@@ -6,6 +6,9 @@ export const Skill = () => {
     <div className="skill-container">
         <h2 className='title'>Skills</h2>
         <br /><br />
+        <p>coming soon ...</p>
+        <br />
+        <br />
     </div>
   )
 }

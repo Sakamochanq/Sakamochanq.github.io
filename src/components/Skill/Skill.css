@@ -4,3 +4,15 @@
     align-items: left;
     margin: 0px 17.5% 0px 17.5%;
 }
+
+.title {
+    padding: .5em .7em;
+    border-left: #474747 solid 5px;
+}
+
+@media screen and (max-width: 950px) {
+    .skill-container {
+        margin: 0px 12.5% 0px 12.5%;
+    }
+    
+}
