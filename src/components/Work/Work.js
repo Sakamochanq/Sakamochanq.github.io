@@ -37,20 +37,7 @@ return (
     <div className="work-container">
         <h2 className="title">Work</h2>
         <br /><br />
-        <div className="project-wrapper">
-            {projects.map((project, index) => (
-                <a href={project.link} className="project-card" key={index} target="_blank" rel="noopener noreferrer">
-                    <img className='project-image' src={process.env.PUBLIC_URL + project.image} alt={project.name} />
-                    <h2 className='project-name'>{project.name}</h2>
-                    <p className='project-desc'>{project.description}</p>
-                    {project.language.map((lang, langIndex) => (
-                        <div style={{ display: "inline-block", justifyItems: "left", textAlign: "center", padding: "3px" }}>
-                            <p className="project-tags" key={langIndex}>{lang}</p>
-                        </div>
-                    ))}
-                </a>
-            ))}
-        </div>
+        <p>Warming things up...</p>
         <br /><br /><br /><br /><br />
     </div>
 );
