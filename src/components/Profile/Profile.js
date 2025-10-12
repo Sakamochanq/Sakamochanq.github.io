@@ -15,11 +15,11 @@ export const Profile = () => {
             </tr>
             <tr>
                 <th>生年月日</th>
-                <td>9月18日</td>
+                <td>2004年 9月18日</td>
             </tr>
             <tr>
                 <th>使用言語</th>
-                <td>C/C++, React</td>
+                <td>C#, C/C++, React</td>
             </tr>
             <tr>
                 <th>好きな食べ物</th>
