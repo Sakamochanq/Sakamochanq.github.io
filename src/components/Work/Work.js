@@ -26,6 +26,12 @@ const projects = [
         description: "任意の画像からASCIIアートを作成するアプリ。",
         SHA: "02fbcd7",
         url: "https://github.com/Sakamochanq/TextArtMaker"
+    },
+    {
+        name: "Rootify",
+        description: "簡易的なディレクトリツリーを作成するアプリ",
+        SHA: "4579c14",
+        url: "https://github.com/Sakamochanq/Rootify"
     }
 ];
 
