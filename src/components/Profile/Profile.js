@@ -19,7 +19,7 @@ export const Profile = () => {
             </tr>
             <tr>
                 <th>使用言語</th>
-                <td>C#, C/C++, React</td>
+                <td>C#, Python</td>
             </tr>
             <tr>
                 <th>好きな食べ物</th>
