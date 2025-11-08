@@ -42,7 +42,7 @@ return (
 
         {projects.map((project, index) => (
             <div className="work-item" key={index} onClick={() => window.open(`${project.url}`, "_blank")}>
-                <div className="work-date">{project.SHA}</div>
+                {/* <div className="work-date">{project.SHA}</div> */}
                 <div className="work-content">
                     <span className="work-title">{project.name}</span>　｜　
                     <span className="work-summary">{project.description}</span>
