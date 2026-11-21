@@ -6,6 +6,12 @@
   user-select: none;
 }
 
+img,
+svg {
+  -webkit-touch-callout: none;
+  -webkit-user-drag: none;
+}
+
 html,
 body {
   width: 100%;

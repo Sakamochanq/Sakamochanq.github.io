@@ -28,7 +28,14 @@ export default function Experience() {
   }, []);
 
   return (
-    <main className={styles.stage}>
+    <main
+      className={styles.stage}
+      onContextMenu={(event) => {
+        if (event.target instanceof Element && event.target.closest("img, svg")) {
+          event.preventDefault();
+        }
+      }}
+    >
       <div className={styles.transitionLayer}>
         <MainScreen />
         {phase !== "main" && (

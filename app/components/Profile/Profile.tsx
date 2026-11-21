@@ -13,6 +13,7 @@ export default function Profile() {
         className={styles.avatar}
         src="https://avatars.githubusercontent.com/u/126952815?v=4"
         alt=""
+        draggable={false}
       />
       <div className={styles.details}>
         <h1 className={styles.name}>Sakamochan</h1>

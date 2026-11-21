@@ -9,7 +9,7 @@ export default function MainScreen() {
         空間情報工学を専攻する学生です。ツールの作成、画像、動画編集など創作が好きです。趣味は旅行と映画鑑賞、好きなアニメはチェンソーマンと宝石の国。
       </p>
       <footer className={styles.footer} aria-label="フッター">
-        <img className={styles.popGirl} src="/popGirl.png" alt="" />
+        <img className={styles.popGirl} src="/popGirl.png" alt="" draggable={false} />
         <span className={styles.credit}>@Clover</span>
       </footer>
     </section>
