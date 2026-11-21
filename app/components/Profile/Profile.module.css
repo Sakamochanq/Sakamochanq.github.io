@@ -40,7 +40,7 @@
   width: 30px;
   height: 30px;
   place-items: center;
-  color: #171717;
+  color: #474747;
   transition: color 150ms ease, transform 150ms ease;
 }
 .socialLink svg { width: 28px; height: 28px; }

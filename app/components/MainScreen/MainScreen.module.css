@@ -9,6 +9,21 @@
   color: #474747;
 }
 
+.introduction {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  left: 0;
+  width: min(300px, calc(100% - 48px));
+  margin: 0 auto;
+  color: #474747;
+  font-size: clamp(14px, 1.6vw, 15px);
+  font-weight: 400;
+  letter-spacing: .035em;
+  line-height: 1.8;
+  text-align: left;
+}
+
 @media (min-width: 768px) {
   .screen {
     --character-right: clamp(88px, 17vw, 210px);
