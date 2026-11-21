@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Sakamochan のページ",
+  title: "Portfolio",
   description: "やわらかく、シンプルな日本語のページです。",
   robots: {
     index: true,
