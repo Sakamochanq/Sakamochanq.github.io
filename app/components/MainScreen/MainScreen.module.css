@@ -36,6 +36,23 @@
     inset: 0;
     background: #ffffff;
     clip-path: polygon(26% 0, 74% 0, 84% 100%, 16% 100%);
+    filter: drop-shadow(0 0 32px rgba(71, 71, 71, .28));
+    content: "";
+  }
+}
+
+@media (max-width: 767px) {
+  .screen {
+    background: #b2b2b2;
+  }
+
+  .screen::before {
+    position: absolute;
+    z-index: 0;
+    inset: 0 -15%;
+    background: #ffffff;
+    clip-path: polygon(28% 0, 72% 0, 110% 100%, -10% 100%);
+    filter: drop-shadow(0 0 32px rgba(71, 71, 71, .28));
     content: "";
   }
 }

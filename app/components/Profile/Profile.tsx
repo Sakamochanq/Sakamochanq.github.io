@@ -3,7 +3,7 @@ import styles from "./Profile.module.css";
 
 const socialLinks = [
   { name: "GitHub", href: "https://github.com/sakamochanq", Icon: FiGithub },
-  { name: "Instagram", href: "https://instagram.com/sakamochanq", Icon: FiInstagram },
+  { name: "Instagram", href: "https://instagram.com/Sakamochan123", Icon: FiInstagram },
 ];
 
 export default function Profile() {
