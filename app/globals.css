@@ -1,5 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700&display=swap");
+
 * {
   box-sizing: border-box;
+  -webkit-user-select: none;
+  user-select: none;
 }
 
 html,
@@ -10,25 +14,17 @@ body {
 }
 
 body {
-  min-height: 100vh;
-  min-height: 100dvh;
-  background: #fff;
-  color: #171717;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.home {
-  display: grid;
-  min-height: 100vh;
-  min-height: 100dvh;
-  place-items: center;
-  padding: 1rem;
-  text-align: center;
-}
-
-.home h1 {
-  margin: 0;
-  font-size: clamp(2rem, 8vw, 4rem);
+  background: #fffaf5;
+  color: #474747;
+  font-family: "M PLUS Rounded 1c", "Hiragino Maru Gothic ProN", "Yu Gothic", sans-serif;
   font-weight: 500;
-  line-height: 1.1;
+  -webkit-font-smoothing: antialiased;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .01ms !important;
+  }
 }

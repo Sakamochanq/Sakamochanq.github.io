@@ -1,0 +1,40 @@
+.stage {
+  display: grid;
+  width: 100%;
+  height: 100vh;
+  height: 100dvh;
+  min-height: 360px;
+  overflow: hidden;
+  place-items: center;
+  background: #fffaf5;
+  position: relative;
+}
+
+.transitionLayer {
+  position: absolute;
+  z-index: 1;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+.transitionLayer > * { grid-area: 1 / 1; }
+
+.bootCurtain {
+  position: absolute;
+  z-index: 1;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  background: #fffaf5;
+}
+
+.curtainRising {
+  animation: raiseCurtain 1200ms cubic-bezier(.65, 0, .35, 1) forwards;
+}
+
+@keyframes raiseCurtain {
+  from { transform: translateY(0); }
+  to { transform: translateY(-100%); }
+}
