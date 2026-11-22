@@ -1,20 +1,20 @@
 .stage {
-  display: grid;
   width: 100%;
-  height: 100vh;
-  height: 100dvh;
-  min-height: 360px;
-  overflow: hidden;
-  place-items: center;
+  min-height: max(100vh, 360px);
+  min-height: max(100dvh, 360px);
+  overflow: visible;
   background: #fffaf5;
   position: relative;
 }
 
 .transitionLayer {
-  position: absolute;
+  position: relative;
   z-index: 1;
-  inset: 0;
   display: grid;
+  width: 100%;
+  height: 100vh;
+  height: 100dvh;
+  min-height: 360px;
   place-items: center;
   overflow: hidden;
 }

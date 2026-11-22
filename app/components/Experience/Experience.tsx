@@ -2,7 +2,8 @@
 
 import { useEffect, useState } from "react";
 import Boot from "../Boot/Boot";
-import MainScreen from "../MainScreen/MainScreen";
+import Home from "../Home/Home";
+import Skill from "../Skill/Skill";
 import styles from "./Experience.module.css";
 
 const BOOT_DURATION_MS = 2600;
@@ -27,6 +28,23 @@ export default function Experience() {
     };
   }, []);
 
+  useEffect(() => {
+    if (phase === "main") return;
+
+    const root = document.documentElement;
+    const body = document.body;
+    const previousRootOverflow = root.style.overflow;
+    const previousBodyOverflow = body.style.overflow;
+
+    root.style.overflow = "hidden";
+    body.style.overflow = "hidden";
+
+    return () => {
+      root.style.overflow = previousRootOverflow;
+      body.style.overflow = previousBodyOverflow;
+    };
+  }, [phase]);
+
   return (
     <main
       className={styles.stage}
@@ -37,13 +55,14 @@ export default function Experience() {
       }}
     >
       <div className={styles.transitionLayer}>
-        <MainScreen />
+        <Home />
         {phase !== "main" && (
           <div className={`${styles.bootCurtain} ${phase === "transition" ? styles.curtainRising : ""}`}>
             <Boot />
           </div>
         )}
       </div>
+      <Skill />
     </main>
   );
 }

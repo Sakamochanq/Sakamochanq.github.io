@@ -1,0 +1,74 @@
+/* [project]/app/components/Section02/Section02.module.css [app-client] (css) */
+.Section02-module__veOIGq__section {
+  color: #474747;
+  background: #fff;
+  height: max(100dvh, 360px);
+  position: relative;
+}
+
+.Section02-module__veOIGq__header {
+  background: #fff;
+  place-items: center;
+  height: 100%;
+  display: grid;
+  position: relative;
+}
+
+.Section02-module__veOIGq__topTrim {
+  z-index: 2;
+  height: clamp(42px, 15vh, 72px);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.Section02-module__veOIGq__topTrim svg {
+  fill: #474747;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.Section02-module__veOIGq__footer {
+  z-index: 2;
+  background: #474747;
+  height: clamp(64px, 9vh, 76px);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.Section02-module__veOIGq__pochita {
+  z-index: 3;
+  filter: grayscale() drop-shadow(0 5px #47474747);
+  width: auto;
+  max-width: calc(100vw - 24px);
+  height: clamp(112px, min(36vh, 40vw), 300px);
+  position: absolute;
+  bottom: calc(clamp(64px, 9vh, 76px) - 3px);
+  left: clamp(72px, 18vw, 180px);
+}
+
+.Section02-module__veOIGq__credit {
+  z-index: 4;
+  color: #fffaf5d1;
+  letter-spacing: .03em;
+  text-align: center;
+  text-shadow: 1px 0 #474747, -1px 0 #474747, 0 1px #474747, 0 -1px #474747;
+  width: clamp(72px, min(22vh, 28vw), 200px);
+  font-size: 11px;
+  font-weight: 500;
+  position: absolute;
+  bottom: calc(clamp(64px, 9vh, 76px) + 10px);
+  left: clamp(72px, 18vw, 180px);
+}
+
+@media (max-width: 767px) {
+  .Section02-module__veOIGq__pochita, .Section02-module__veOIGq__credit {
+    left: clamp(20px, 6vw, 44px);
+  }
+}
+
+/*# sourceMappingURL=app_components_Section02_Section02_module_css_1igg3k2-ikub5._.single.css.map*/

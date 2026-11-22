@@ -1,0 +1,36 @@
+@import "https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700&display=swap";
+/* [project]/app/globals.css [app-client] (css) */
+* {
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+img, svg {
+  -webkit-touch-callout: none;
+  -webkit-user-drag: none;
+}
+
+html, body {
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  color: #474747;
+  -webkit-font-smoothing: antialiased;
+  background: #fffaf5;
+  font-family: "M PLUS Rounded 1c", Hiragino Maru Gothic ProN, Yu Gothic, sans-serif;
+  font-weight: 500;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, :before, :after {
+    transition-duration: .01ms !important;
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}
+
+/*# sourceMappingURL=app_globals_0yg4wg8plh8sv.css.map*/

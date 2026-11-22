@@ -1,7 +1,7 @@
-import styles from "./MainScreen.module.css";
+import styles from "./Home.module.css";
 import Profile from "../Profile/Profile";
 
-export default function MainScreen() {
+export default function Home() {
   return (
     <section className={styles.screen} aria-label="メイン画面">
       <Profile />

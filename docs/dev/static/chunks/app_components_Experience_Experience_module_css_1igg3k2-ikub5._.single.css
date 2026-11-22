@@ -1,0 +1,48 @@
+/* [project]/app/components/Experience/Experience.module.css [app-client] (css) */
+.Experience-module__B5A2Yq__stage {
+  background: #fffaf5;
+  width: 100%;
+  min-height: max(100dvh, 360px);
+  position: relative;
+  overflow: visible;
+}
+
+.Experience-module__B5A2Yq__transitionLayer {
+  z-index: 1;
+  place-items: center;
+  width: 100%;
+  height: 100dvh;
+  min-height: 360px;
+  display: grid;
+  position: relative;
+  overflow: hidden;
+}
+
+.Experience-module__B5A2Yq__transitionLayer > * {
+  grid-area: 1 / 1;
+}
+
+.Experience-module__B5A2Yq__bootCurtain {
+  z-index: 1;
+  background: #fffaf5;
+  place-items: center;
+  display: grid;
+  position: absolute;
+  inset: 0;
+}
+
+.Experience-module__B5A2Yq__curtainRising {
+  animation: 1.2s cubic-bezier(.65, 0, .35, 1) forwards Experience-module__B5A2Yq__raiseCurtain;
+}
+
+@keyframes Experience-module__B5A2Yq__raiseCurtain {
+  from {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(-100%);
+  }
+}
+
+/*# sourceMappingURL=app_components_Experience_Experience_module_css_1igg3k2-ikub5._.single.css.map*/
