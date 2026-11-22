@@ -1,0 +1,3 @@
+User-Agent: Googlebot-Image
+Disallow: /
+
