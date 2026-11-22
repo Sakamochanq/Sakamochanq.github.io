@@ -1,36 +1,132 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
+    <h3>Sakamochanq.github.io</h3>
+    <p>Just a Portfolio</p>
+    <br>
+    <a href="#">
+        <img src="./assets/images/Portfolio.png" width="500px">
+    </a>
+    <br>
+    <br>
+</div>
 
-## Getting Started
+### 概要
 
-First, run the development server:
+趣味で作ったポートフォリオサイトです。これから先、エンジニア職に就くつもりもありませんが、自己紹介的なサイトは作ってみたかったので、作ってみました。クラシックカートゥーンな雰囲気が好きなので、モノクロで少しレトロを意識してみました。作成者本人ころころ好きな雰囲気が変わるので、サイトのデザインもころころ変わるでしょう。
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+<br>
+<br>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 技術スタック
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+<table>
+  <tr>
+    <td>言語</td>
+    <td>TypeScript</td>
+  </tr>
+  <tr>
+    <td>フレームワーク</td>
+    <td>Next.js</td>
+  </tr>
+  <tr>
+    <td>Deploy</td>
+    <td>npm / Github Pages</td>
+  </tr>
+</table>
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+<br>
+<br>
 
-## Learn More
+### 環境構築
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+    ```bash
+    git clone https://github.com/Sakamochanq/Sakamochanq.github.io.git
+    cd Sakamochanq.github.io
+    ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+<br>
 
-## Deploy on Vercel
+2. Install dependencies
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+    ```bash
+    npm install
+    ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+<br>
+
+3. Run the development server
+
+    ```bash
+    npm run dev
+    ```
+
+<br>
+
+4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+<br>
+
+5. Build the project
+
+    ```bash
+    npm run build
+    ```
+
+<br>
+<br>
+
+### 備考
+
+画面右下 ダンスを踊っている女の子（Brenda）の画像は、**[【Clover】Still Dancing (Mucsic Video)](https://www.youtube.com/watch?v=AlYdp8P1s6c)** から引用させていただきました。問題があれば削除致します。
+
+<br>
+
+<table>
+  <tr>
+    <td>
+        <div align="center">
+            <a href="#">
+                <img src="./assets/images/StillDancing01.png" width="250px">
+            </a>
+        </div>
+    </td>
+    <td>
+        <div align="center">
+            <a href="#">
+                <img src="./assets/images/StillDancing02.png" width="250px">
+            </a>
+        </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+        <div align="center">
+            <a href="#">
+                <img src="./assets/images/StillDancing03.png" width="250px">
+            </a>
+        </div>
+    </td>
+    <td>
+        <div align="center">
+            <a href="#">
+                <img src="./assets/images/StillDancing04.png" width="250px">
+            </a>
+        </div>
+    </td>
+  </tr>
+</table>
+
+<br>
+<br>
+
+### License
+
+Release under the [MIT](./LICENSE) License.
+
+<br>
+<br>
+
+### 著者
+
+Sakamochanq
