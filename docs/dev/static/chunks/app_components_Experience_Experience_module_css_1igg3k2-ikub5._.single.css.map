@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/app/components/Experience/Experience.module.css"],"sourcesContent":[".stage {\r\n  width: 100%;\r\n  min-height: max(100vh, 360px);\r\n  min-height: max(100dvh, 360px);\r\n  overflow: visible;\r\n  background: #fffaf5;\r\n  position: relative;\r\n}\r\n\r\n.transitionLayer {\r\n  position: relative;\r\n  z-index: 1;\r\n  display: grid;\r\n  width: 100%;\r\n  height: 100vh;\r\n  height: 100dvh;\r\n  min-height: 360px;\r\n  place-items: center;\r\n  overflow: hidden;\r\n}\r\n\r\n.transitionLayer > * { grid-area: 1 / 1; }\r\n\r\n.bootCurtain {\r\n  position: absolute;\r\n  z-index: 1;\r\n  inset: 0;\r\n  display: grid;\r\n  place-items: center;\r\n  background: #fffaf5;\r\n}\r\n\r\n.curtainRising {\r\n  animation: raiseCurtain 1200ms cubic-bezier(.65, 0, .35, 1) forwards;\r\n}\r\n\r\n@keyframes raiseCurtain {\r\n  from { transform: translateY(0); }\r\n  to { transform: translateY(-100%); }\r\n}\r\n"],"names":[],"mappings":"AAAA;;;;;;;;AASA;;;;;;;;;;;AAYA;;;;AAEA;;;;;;;;;AASA;;;;AAIA"}}]
-}

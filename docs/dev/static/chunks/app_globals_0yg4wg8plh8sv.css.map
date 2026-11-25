@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 2, "column": 0}, "map": {"version":3,"sources":["file:///C:/Enviroments/Sakamochanq.github.io/app/globals.css"],"sourcesContent":["@import url(\"https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700&display=swap\");\r\n\r\n* {\r\n  box-sizing: border-box;\r\n  -webkit-user-select: none;\r\n  user-select: none;\r\n}\r\n\r\nimg,\r\nsvg {\r\n  -webkit-touch-callout: none;\r\n  -webkit-user-drag: none;\r\n}\r\n\r\nhtml,\r\nbody {\r\n  width: 100%;\r\n  min-height: 100%;\r\n  margin: 0;\r\n}\r\n\r\nbody {\r\n  background: #fffaf5;\r\n  color: #474747;\r\n  font-family: \"M PLUS Rounded 1c\", \"Hiragino Maru Gothic ProN\", \"Yu Gothic\", sans-serif;\r\n  font-weight: 500;\r\n  -webkit-font-smoothing: antialiased;\r\n}\r\n\r\n@media (prefers-reduced-motion: reduce) {\r\n  *, *::before, *::after {\r\n    animation-duration: .01ms !important;\r\n    animation-iteration-count: 1 !important;\r\n    transition-duration: .01ms !important;\r\n  }\r\n}\r\n"],"names":[],"mappings":"AAEA;;;;;;AAMA;;;;;AAMA;;;;;;AAOA;;;;;;;;AAQA;EACE"}}]
-}
