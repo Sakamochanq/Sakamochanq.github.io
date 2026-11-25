@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Portfolio",
-  description: "やわらかく、シンプルな日本語のページです。",
+  description: "Just a Sakamochanq's Portfolio",
   robots: {
     index: true,
     follow: true,

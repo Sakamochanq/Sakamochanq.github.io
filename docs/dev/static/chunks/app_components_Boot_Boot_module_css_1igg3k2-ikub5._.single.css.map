@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/app/components/Boot/Boot.module.css"],"sourcesContent":[".boot {\r\n  position: relative;\r\n  display: grid;\r\n  width: 100%;\r\n  height: 100%;\r\n  place-items: center;\r\n}\r\n\r\n.boot h1 {\r\n  display: flex;\r\n  margin: 0;\r\n  font-size: clamp(34px, 8vw, 68px);\r\n  font-weight: 500;\r\n  letter-spacing: .02em;\r\n  line-height: 1;\r\n}\r\n\r\n.letter {\r\n  display: inline-block;\r\n  opacity: 0;\r\n  animation: letterAppear 500ms cubic-bezier(.2,.7,.25,1) forwards;\r\n}\r\n\r\n.arrow {\r\n  position: absolute;\r\n  bottom: 30px;\r\n  left: 50%;\r\n  width: 22px;\r\n  height: 22px;\r\n  fill: none;\r\n  stroke: #b29a8c;\r\n  stroke-linecap: round;\r\n  stroke-linejoin: round;\r\n  stroke-width: 1.6;\r\n  transform: translateX(-50%);\r\n}\r\n\r\n@keyframes letterAppear {\r\n  from { opacity: 0; transform: translateY(.35em); }\r\n  to { opacity: 1; transform: translateY(0); }\r\n}\r\n\r\n"],"names":[],"mappings":"AAAA;;;;;;;;AAQA;;;;;;;;;AASA;;;;;;AAMA;;;;;;;;;;;;;;AAcA"}}]
+}
